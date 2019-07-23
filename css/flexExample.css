@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* Flex properties*
+
+display:flex | inline-flex
+flex-direction: row | column
+flex-wrap: wrap | nonwrap | wrapreverse
+flex-basis: <length>
+justify-content: flex-start | flex-end | center
+align-self: flex-start | flex-end | center
+align-items: flex-start | flex-end | center
+align-content: flex-start | flex-end | center
+flex-grow: <number>;
+flex-shrink: <number>;
+flex: <integer>;
+order: <integer>;
+
+
+*/
+
+img.medium{
+	
+	max-height: 400px;
+	min-width: 200px;
+	display:inline-flex;
+	
+	
+}
+
+img.city{
+	
+	align-items: flex-start;
+}
+
+img.home{
+	
+	align-items: flex-center;
+	
+}
+
+img.basketball{
+	
+	align-items: flex-end;
+	
+}
+
+.container{
+	
+	margin: 3rem;
+	padding: 3rem;
+	
+	
+}
